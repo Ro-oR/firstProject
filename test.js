@@ -20,4 +20,39 @@ let a = 5;
 console.log(a);
 }
 // existiert nicht, da lokal sichtbar (und wirft deswegen einen Fehler)
-console.log(a)
+//console.log(a)
+
+console.log(); //Leerzeile
+
+for (let x = 0; x < 10; x++){
+    console.log(x)
+}
+
+console.log(); //Leerzeile
+
+const log = function(message){
+    console.log(message)
+};
+
+const min = function(a, b, callback){
+    if(a>b){
+        callback("a größer b");
+    } else if (a < b){
+        callback("b größer a");
+    } else {
+        callback("gleich");
+    }
+}
+
+min(5,6,log);
+
+const readline = require("readline");
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("Radius?", function(answer){
+    console.log('Antwort: ' + answer);
+    rl.close();
+});
