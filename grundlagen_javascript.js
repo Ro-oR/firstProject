@@ -14,6 +14,9 @@ currentRating = 8.1;
 console.log(maxRating + "\n" + overallRatings + "\n" + currentRating);
 
 //Aufgabe 3
+const einlesen = function(){
+
+var input;
 const readline = require("readline");
 const rl = readline.createInterface({
     input: process.stdin,
@@ -21,11 +24,18 @@ const rl = readline.createInterface({
 });
 
 rl.question("Test? ", function(answer){
-    let input = answer;
+    input = answer;
     console.log(input);
+    if (input <= 0 && input >= maxRating) console.log("Hallo Welt :D")
     rl.close();
 });
+<<<<<<< HEAD
 
 //958 512 651
 
 //RB1Scr5HUH
+=======
+};
+
+einlesen();
+>>>>>>> 237db4416b8ba8216b28d59f4dfa39c50be5da84
