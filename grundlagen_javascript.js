@@ -29,13 +29,6 @@ rl.question("Test? ", function(answer){
     if (input <= 0 && input >= maxRating) console.log("Hallo Welt :D")
     rl.close();
 });
-<<<<<<< HEAD
-
-//958 512 651
-
-//RB1Scr5HUH
-=======
 };
 
 einlesen();
->>>>>>> 237db4416b8ba8216b28d59f4dfa39c50be5da84
