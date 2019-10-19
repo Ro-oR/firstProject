@@ -17,4 +17,4 @@ class Playlist{
     }
 }
 
-module.exports = Playlist;
+module.exports = Playlist; //Exportanweisung um die Klasse in der Mainfunktion o.Ä. zu haben.
