@@ -11,4 +11,4 @@ class Song{
     }
 }
 
-module.exports = Song;
+module.exports = Song; //Exportanweisung um die Klasse in der Mainfunktion o.Ä. zu haben.
