@@ -1,5 +1,6 @@
-const Song = require("./Song.js");
-const Playlist = require("./Playlist.js");
+const Song = require("./Song.js");              //
+const Playlist = require("./Playlist.js");      //Importanweisung für externe Klassen
+const User = require("./User.js");              //
 
 var song1 = new Song("Testname1");
 var song2 = new Song("Testname2");
